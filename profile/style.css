@@ -1,0 +1,77 @@
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+body{
+  background: #fffefe;
+  color: #333333;
+  display: block;
+}
+.img{
+  width: 55%;
+  height: 80%;
+  background-image: url('images/img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+.header-div, .main-div .footer-div{
+  margin: 20px auto;
+  text-align: center;
+}
+.header-div{
+  width: 70%;
+  height: 350px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-bottom: 0.8px solid #2C685C;
+}
+.main-div{
+  width: 50%;
+  margin: 35px auto;
+  padding: 50px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=28, Direction=0, Color=#333333)";/*IE 8*/
+-moz-box-shadow: 0 3px 28px -11px rgba(51,51,51,0.8);/*FF 3.5+*/
+-webkit-box-shadow: 0 3px 28px -11px rgba(51,51,51,0.8);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 0 3px 28px -11px rgba(51,51,51,0.8);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=28, Direction=135, Color=#333333); /*IE 5.5-7*/
+}
+
+p{
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+h2, h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300
+  margin-top: 0;
+}
+.personal-infos{
+  display: inline;
+  height: 50px;
+}
+div .footer-div{
+  text-align: center;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  color: #333;
+}
+a:hover{
+  color: #111;
+}
+.links{
+  font-size: 64px;
+  padding: 0 50px;
+}
+.footer-id{
+padding: 0;
+font-size: 24px;
+}
+.footer-id:hover{
+  font-size: 48px;
+}
+
