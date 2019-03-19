@@ -17,7 +17,7 @@ a{
   color: #333;
 }
 
-a:hover{
+.nav-div a:hover{
   color: #111;
 }
 .header-div, .main-div .nav-div .contacts-nav .code-nav{
@@ -34,7 +34,14 @@ a:hover{
   height: auto;
 
 }
-
+.italy{
+  background: #3c8970;
+    padding: 3px;
+    color: #fff;
+    border-radius: 2px;
+    position: relative;
+    bottom: 4px;
+}
 /* typo rules*/
 p{
   font-size: 18px;
@@ -42,7 +49,7 @@ p{
 }
 h2, h3{
   font-family: 'Roboto', sans-serif;
-  font-weight: 300
+  font-weight: 300;
   margin-top: 0;
 }
 h2{
