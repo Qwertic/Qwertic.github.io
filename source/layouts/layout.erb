@@ -16,19 +16,22 @@
 
 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   </head>
   <body>
-    <div class="navbar row">
+    <div class="navbar row fixed-top">
   <div class="nav-links col-12">
     <ul class="list-inline tabs-underlined col-12">
       <li class="col-lg-1  col-sm-4 list listA">
-        <%= link_to "Home", "/index.html", :anchor => "ban", class: "tab-underlined  hvr-bob" %>
+        <%= link_to "Home", "/index.html", :anchor => "home", class: "tab-underlined  hvr-bob l" %>
       </li>
       <li class="col-lg-1  col-sm-4 list listA">
-        <%= link_to "About", "/index.html",:anchor => "about", class: "tab-underlined hvr-bob" %>
+        <%= link_to "About", "/index.html",:anchor => "about", class: "tab-underlined hvr-bob l" %>
       </li>
       <li class="col-lg-1  col-sm-4 list listA">
-        <%= link_to "Works", "/works.html", class: "tab-underlined hvr-bob" %>
+        <%= link_to "Works", "/works.html", class: "tab-underlined hvr-bob l" %>
       </li>
     </ul>
   </div>
@@ -56,4 +59,14 @@
   <script>
   AOS.init();
 </script>
+<script>
+  var typed = new Typed('#typed', {
+    strings: ["I changed my life, I leart how to code. So YES I'm a coder now."],
+    loop: true,
+    typeSpeed: 50,
+    smartBackspace: true,
+    cursorChar: '',
+  });
+</script>
+
 </html>

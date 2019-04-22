@@ -71,27 +71,38 @@ font-family: 'Montserrat', sans-serif;
 .navbar{
   height: 8%;
   padding: 0;
-  color: #323330;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+
   margin: 0 !important;
-  position: sticky !important;
-  top: 0;
-  background-color: #fff;
-  z-index: 1000;
+  background-color: transparent;
+  color: transparent;
+  transition: 0.5s background-color ease;
+
+}
+.navbar-fff{
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    color: #323330;
+
 }
 .tabs-underlined {
+
   display: flex;
   align-items: center;
 }
 .tabs-underlined .tab-underlined {
-  color: #323330;
+   color: transparent ;
   padding: 8px ;
   // margin: 8px 16px;
   opacity: .9;
   cursor: pointer;
   text-decoration: none;
   // border-bottom: 4px solid transparent;
-
+}
+ .tab-underlined-color {
+   color: #323330 !important;
+   text-shadow: 1px 1px 3px rgba(180, 180 ,180,0.5);
 }
 .list{
   position: relative;
@@ -100,7 +111,7 @@ font-family: 'Montserrat', sans-serif;
 }
 .listA{
   left: -60px;
-  text-shadow: 1px 1px 3px rgba(180, 180 ,180,0.5);
+
 }
 // banner starts here
 .banner {
@@ -109,7 +120,9 @@ font-family: 'Montserrat', sans-serif;
   background-position: center;
   padding: 150px 0;
 }
-
+#typed{
+  height: 70px;
+}
 .banner h1 {
   margin: 0;
   color: white;
