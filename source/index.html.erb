@@ -2,6 +2,22 @@
 title: Regi's Portfolio
 ---
 
+ <div class="navbar row fixed-top">
+  <div class="nav-links col-12">
+    <ul class="list-inline tabs-underlined col-12">
+      <li class="col-lg-1  col-sm-4 list listA">
+        <%= link_to "Home", "/index.html", :anchor => "home", class: "tab-underlined  hvr-bob l" %>
+      </li>
+      <li class="col-lg-1  col-sm-4 list listA">
+        <%= link_to "About", "/index.html",:anchor => "about", class: "tab-underlined hvr-bob l" %>
+      </li>
+      <li class="col-lg-1  col-sm-4 list listA">
+        <%= link_to "Works", "/works.html", class: "tab-underlined hvr-bob l" %>
+      </li>
+    </ul>
+  </div>
+</div>
+
 <div class="banner" id="home"  style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dhxd71w5a/image/upload/v1555794436/kevin-bhagat-343433-unsplash.jpg);">
   <div class="container" data-aos="fade-up">
     <h1>Hey there! <br><strong>If </strong> you are<strong> here</strong> you probably know me,<br> or <strong>want</strong> to know me!</h1>
@@ -17,7 +33,7 @@ title: Regi's Portfolio
           <div class=" col-12 text-box scroller">
             <div class="text-box-header"><h2>Technologies that i use:</h2></div>
             <div class="text-box-body row col-10">
-              <div class="icon-box row c ol-3">
+              <div class="icon-box row">
                 <a target="_blank"  href="https://www.google.it/search?ei=lhiyXIutDpC-kwXZh4nwCg&q=javascript&oq=java&gs_l=psy-ab.1.0.35i39l2j0l2j0i67l6.75272.75590..76890...0.0..0.90.301.4......0....1..gws-wiz.......0i71j0i131.scH_q6MYRGY">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -417,5 +433,19 @@ title: Regi's Portfolio
       </p>
 
       </div>
-      <%= link_to 'Contact me', 'mailto:vodaregi@gmail.com',  :class => "btn btn-primary myBtn2 hvr-shadow col-lg-2 col-md-2 col-sm-4"%>
+      <%= link_to 'Contact me', 'mailto:vodaregi@gmail.com',  :class => "btn btn-primary myBtn2 hvr-shadow col-lg-2 col-md-2 col-4"%>
     </div>
+      <!-- FOOTER start -->
+    <div class="footer col-12">
+      <div class="footer-links">
+        <a target="_blank" href="https://github.com/Qwertic"><i class="fab fa-github"></i></a>
+        <a target="_blank" href="https://www.instagram.com/regivoda"><i class="fab fa-instagram"></i></a>
+
+        <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/regi-voda-580a05169"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="footer-copyright">
+        This page is made with <i class="fas fa-heart"></i> by Regi Voda
+      </div>
+    </div>
+    <!-- FOOTER end -->

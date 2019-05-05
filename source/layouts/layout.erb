@@ -4,15 +4,33 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="title" content="Regi Voda - Full-stack Web Developer">
     <meta name="description" content="Full stack Web Developer">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript,Developer,Web,Fullstack,Full stack,Full-stack, full stack developer, web developer,Ruby,RoR,Ruby on Rails Developer,sviluppatore Web,front-end developer,Freelance Developer">
-    <meta name="author" content="Regi Voda">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.regivoda.dev/">
+    <meta property="og:title" content="Regi Voda - Full-stack Web Developer">
+    <meta property="og:description" content="Full stack Web Developer">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.regivoda.dev/">
+    <meta property="twitter:title" content="Regi Voda - Full-stack Web Developer">
+    <meta property="twitter:description" content="Full stack Web Developer">
+    <meta property="twitter:image" content="">
+    <!-- <meta name="description" content="Full stack Web Developer">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript,Developer,Web,Fullstack,Full stack,Full-stack, full stack developer, web developer,Ruby,RoR,Ruby on Rails Developer,sviluppatore Web,front-end developer,Freelance Developer"> -->
+   <!--  <meta name="author" content="Regi Voda"> -->
 
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Middleman" %></title>
     <%= stylesheet_link_tag "site" %>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600,800i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Assistant:400,600,700,800" rel="stylesheet">
+
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -24,36 +42,9 @@
     <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   </head>
   <body>
-    <div class="navbar row fixed-top">
-  <div class="nav-links col-12">
-    <ul class="list-inline tabs-underlined col-12">
-      <li class="col-lg-1  col-sm-4 list listA">
-        <%= link_to "Home", "/index.html", :anchor => "home", class: "tab-underlined  hvr-bob l" %>
-      </li>
-      <li class="col-lg-1  col-sm-4 list listA">
-        <%= link_to "About", "/index.html",:anchor => "about", class: "tab-underlined hvr-bob l" %>
-      </li>
-      <li class="col-lg-1  col-sm-4 list listA">
-        <%= link_to "Works", "/works.html", class: "tab-underlined hvr-bob l" %>
-      </li>
-    </ul>
-  </div>
-</div>
-    <%= yield %>
-     <!-- FOOTER start -->
-    <div class="footer col-12">
-      <div class="footer-links">
-        <a target="_blank" href="https://github.com/Qwertic"><i class="fab fa-github"></i></a>
-        <a target="_blank" href="https://www.instagram.com/regivoda"><i class="fab fa-instagram"></i></a>
 
-        <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/in/regi-voda-580a05169"><i class="fab fa-linkedin"></i></a>
-      </div>
-      <div class="footer-copyright">
-        This page is made with <i class="fas fa-heart"></i> by Regi Voda
-      </div>
-    </div>
-    <!-- FOOTER end -->
+    <%= yield %>
+
 <%= javascript_include_tag "site" %>
 
 
