@@ -71,7 +71,7 @@ font-family: 'Montserrat', sans-serif;
   height: 8%;
   padding: 0;
 
-
+  font-weight: bold;
   margin: 0 !important;
   background-color: transparent;
   color: transparent;
@@ -321,7 +321,7 @@ box-sizing: content-box;
       height: min-content;
     text-align: center;
     align-self: center;
-        margin: 15px auto -20px;
+        margin: 15px auto -15px;
 }
 .myBtn2{
       min-width: fit-content;
@@ -331,13 +331,14 @@ box-sizing: content-box;
         margin: 15px auto -20px;
 }
 #mycard{
-  margin: 0 auto;
+  margin: 0 auto 10px;
 }
 .main-links {
   display: flex;
-  align-items: center;
+  margin: 30px auto -10px;
+  align-items: flex-end;
   justify-content: space-evenly;
-  margin: 30px auto 0;
+
 }
 .main-links a {
   color: black;
