@@ -13,54 +13,48 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+<link href="material-4.1.1-dist/css/material.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
-    <div class="navbar row">
-  <div class="nav-links col-12">
-    <ul class="list-inline tabs-underlined col-12">
-      <li class="col-lg-1  col-sm-4 list listA">
-        <a href="/#ban" class="tab-underlined  hvr-bob">Home</a>
-      </li>
-      <li class="col-lg-1  col-sm-4 list listA">
-        <a href="/#about" class="tab-underlined hvr-bob">About</a>
-      </li>
-      <li class="col-lg-1  col-sm-4 list listA">
-        <a href="/works.html" class="tab-underlined hvr-bob">Works</a>
-      </li>
-    </ul>
-  </div>
-</div>
-    <div class="banner" id="ban"  style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/kevin-bhagat-343433-unsplash.jpg);">
+  <nav class=" navbar  col-12">
+    <button  type="button" class="btn btn-outline-secondary   ">
+      <a class="navbar-brand" href="/#nav">
+        Regi Voda
+      </a>
+    </button>        
+    <button href="#about" type="button" class="btn btn-outline-secondary "> 
+      <a href="/#about">
+        About
+      </a>
+    </button>
+  </nav>
+    <div class="banner col-12" id="ban" >
   <div class="container" data-aos="fade-up">
-    <h1>Hey there! <br><strong>If </strong> you are<strong> here</strong> you probably know me,<br> or <strong>want</strong> to know me!</h1>
-    <p>I changed my life, I leart how to code. So YES I'm a coder now.</p>
-    <a href="mailto:vodaregi@gmail.com" class="btn btn-primary myBtn2 hvr-shadow col-lg-2 col-md-2 col-sm-11">Contact me</a>
+    <h1><br>If you are<strong> here</strong> you probably know me,<br> or you <strong>want</strong> to know me</h1>
+    <p>Some infos about what I do:</p>
+    <button type="button" href="#about"  class="btn btn-outline-secondary btn-lg find-out"> 
+      <a href="#about">
+        <h4 class="find-out">Check me out</h4>
+      </a>
+    </button>
   </div>
 </div>
-<div class="main-div row col-12" id="home">
+<div class="intro">
+  
+  <p class="typography-display-1" style="color: #030e46; font-family: 'Montserrat', sans-serif !important;">This is what I do: </p>
+  <div class="dropdown-divider" data-aos="fade-right"></div>
+</div>
+<div class="main-div d-flex flex-wrap">
       <div class="main-left col-lg-7  col-sm-12" data-aos="fade-right">
         <div class=" col-lg-8  col-sm-12 left-main-card">
-          <div  class="col-12 text-title"><h1 class="text-title-left">Full-stack </h1><h1 class="text-title-right">Web Developer</h1></div>
+          <div  class="col-12 text-title"><h1 class="text-title-left">Full-stack </h1><h1 class="text-title-right"> Web Developer</h1></div>
           <!-- left card -->
-          <div class=" col-12 text-box scroller">
-            <div class="text-box-header"><h2>Technologies that i use:</h2></div>
+          <div class=" col-12 text-box scroller" data-aos="fade-up">
+            <div class="text-box-header"><h2>Technologies that i might use:</h2></div>
             <div class="text-box-body row col-10">
-              <div class="icon-box row c ol-3">
-                <a target="_blank"  href="https://www.google.it/search?ei=lhiyXIutDpC-kwXZh4nwCg&q=javascript&oq=java&gs_l=psy-ab.1.0.35i39l2j0l2j0i67l6.75272.75590..76890...0.0..0.90.301.4......0....1..gws-wiz.......0i71j0i131.scH_q6MYRGY">
-                  <div class="icon-body">
-                    <div class="icon hvr-bob col-6">
-                      <i class="devicon-javascript-plain colored"></i>
-                    </div>
-                    <div class="icon-name col-6">
-                      <p>Javascript</p>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?q=ruby-lang&oq=ruby-la&aqs=chrome.1.69i57j69i59j0l4.7612j1j7&sourceid=chrome&ie=UTF-8">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -72,7 +66,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=AwS7XJGhLYLLwAKPqJWgBA&q=ruby+on+rails&oq=ruby+on&gs_l=psy-ab.1.0.35i39j0l9.40227.41798..42897...0.0..0.71.319.5......0....1..gws-wiz.......0i71j0i203j0i20i263j0i67j0i131.gY4M18tQGMw">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -84,7 +78,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=LwS7XI_3JYPEwALOk4ygBw&q=postgresql&oq=pos&gs_l=psy-ab.1.0.35i39l2j0i131j0j0i67l4j0j0i131.24549.24922..26010...0.0..0.84.212.3......0....1..gws-wiz.......0i71.LR0Zd-iqcMw">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -96,7 +90,55 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
+                <a target="_blank"  href="https://www.google.com/search?q=docker&oq=docker&aqs=chrome..69i57j69i59j69i60l4j69i65j69i60.7075j0j7&sourceid=chrome&ie=UTF-8">
+                  <div class="icon-body">
+                    <div class="icon hvr-bob col-6">
+                      <i class="devicon-docker-plain-wordmark colored"></i>
+                    </div>
+                    <div class="icon-name col-6">
+                      <p>Docker</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="icon-box  row "  >
+                <a target="_blank"  href="https://www.google.com/search?q=docker&oq=docker&aqs=chrome..69i57j69i59j69i60l4j69i65j69i60.7075j0j7&sourceid=chrome&ie=UTF-8">
+                  <div class="icon-body">
+                    <div class="icon hvr-bob col-6">
+                      <i class="devicon-redis-plain-wordmark colored"></i>
+                    </div>
+                    <div class="icon-name col-6">
+                      <p>Redis</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="icon-box  row "  >
+                <a target="_blank"  href="https://www.google.com/search?q=docker&oq=docker&aqs=chrome..69i57j69i59j69i60l4j69i65j69i60.7075j0j7&sourceid=chrome&ie=UTF-8">
+                  <div class="icon-body">
+                    <div class="icon hvr-bob col-6">
+                      <i class="devicon-gitlab-plain colored"></i>
+                    </div>
+                    <div class="icon-name col-6">
+                      <p>Gitlab</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="icon-box  row c ol-3">
+                <a target="_blank"  href="https://www.google.it/search?ei=lhiyXIutDpC-kwXZh4nwCg&q=javascript&oq=java&gs_l=psy-ab.1.0.35i39l2j0l2j0i67l6.75272.75590..76890...0.0..0.90.301.4......0....1..gws-wiz.......0i71j0i131.scH_q6MYRGY">
+                  <div class="icon-body">
+                    <div class="icon hvr-bob col-6">
+                      <i class="devicon-javascript-plain colored"></i>
+                    </div>
+                    <div class="icon-name col-6">
+                      <p>Javascript</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=SgS7XJ-FD8ffwQLw6pGYBA&q=bootstrap&oq=boo&gs_l=psy-ab.1.0.35i39l2j0i131l2j0i67l2j0i131j0l3.14166.14556..15305...0.0..0.103.239.2j1......0....1..gws-wiz.......0i71.cUB8b1JpLq0">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -108,7 +150,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=WgS7XLbGCojJwQKvurXICQ&q=css&oq=css&gs_l=psy-ab.3..35i39j35i39i19j0i67l8.652073.654269..675189...1.0..0.248.1838.4j2j5......0....1..gws-wiz.....6..0i71j0i131j0.NFPfHLks3oo">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -120,7 +162,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?q=html&oq=html&aqs=chrome..69i57j69i60l3j69i65l2.2071j0j9&sourceid=chrome&ie=UTF-8">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -132,7 +174,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=Gwe7XLngJ8fVwAL9i4eQDg&q=heroku&oq=heroku&gs_l=psy-ab.3..35i39j0l3j0i67j0l5.24343.25390..25995...0.0..0.76.376.6......0....1..gws-wiz.......0i71j0i131j0i131i67.R0-ffDAxakQ">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -144,7 +186,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=Nge7XPm9DsTawQKcp7PoDQ&q=jquery&oq=jqu&gs_l=psy-ab.1.0.35i39l2j0i20i263j0i67l2j0l3j0i67j0.340505.340829..342703...0.0..0.84.212.3......0....1..gws-wiz.......0i71j0i131.PIP3Sm0cF8Q">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -156,7 +198,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?q=nodejs&oq=nodejs&aqs=chrome..69i57j0l5.5167j0j9&sourceid=chrome&ie=UTF-8">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -168,7 +210,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=qgi7XNzwN9DNwQLO9bGICA&q=webpack&oq=web&gs_l=psy-ab.1.1.35i39l2j0i67l3j0i131l3j0i67j0.23761.24112..25970...0.0..0.70.195.3......0....1..gws-wiz.......0i71j0i131i67.ul7t7oQXB2c">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -180,7 +222,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=xQi7XKOMHYjEwAKTqrqQBw&q=ubuntu&oq=ubuntu&gs_l=psy-ab.3..35i39l2j0i131j0l5j0i67j0.11762.12658..13369...0.0..0.66.356.6......0....1..gws-wiz.......0i71j35i39i19.qHUkZqi3vM4">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -192,7 +234,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=0wi7XPDqGcz4wALnwZbQBw&q=vuejs&oq=vue&gs_l=psy-ab.1.0.35i39j0j0i67j0i20i263j0i67j0j0i67j0j0i67l2.14005.14337..16499...0.0..0.69.198.3......0....1..gws-wiz.......0i71j0i131.vk8nTIPBWXw">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -204,7 +246,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=5Ai7XJvCH8L6wALFh7CgAg&q=visual+studio&oq=visual&gs_l=psy-ab.1.0.35i39j0i67j0l8.17109.18177..19046...0.0..0.71.374.6......0....1..gws-wiz.......0i71j0i131.nMSSjGCI52Q">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -216,7 +258,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=-Ai7XPXfDILHwQLXpp_4AQ&q=slack&oq=slack&gs_l=psy-ab.3..35i39j0i67j0i131j0l6j0i67.22050.22916..23424...0.0..0.73.335.5......0....1..gws-wiz.......0i71.ORA6u3pcl3Q">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -228,7 +270,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=EAm7XP39HtHKwAKVtoKQCg&q=sass&oq=sass&gs_l=psy-ab.3..35i39j0l3j0i131l2j0j0i131j0l2.11354.11867..12444...0.0..0.74.261.4......0....1..gws-wiz.......0i71j0i67j35i39i19.fEMsoYIGmew">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -240,7 +282,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=HQm7XJPyIpCmwQKKm4TYDA&q=react&oq=re&gs_l=psy-ab.1.0.35i39l2j0i67l2j0i131j0i67l5.24573.25742..27237...1.0..0.75.324.5......0....1..gws-wiz.....6..0i71j0j35i39i19.1FiIFeFyqRs">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -252,7 +294,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=OQm7XLisGY7WwQLpk5uoBw&q=illustrator&oq=illu&gs_l=psy-ab.1.0.35i39j0l9.14860.15681..16383...0.0..0.81.258.4......0....1..gws-wiz.......0i71j35i39i19j0i131j0i10.A7eS9__dKp8">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -264,7 +306,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=Sgm7XMPzH4bRwALFuLToAQ&q=linux&oq=linu&gs_l=psy-ab.1.0.35i39l2j0i67j0l2j0i67l3j0l2.21227.23757..24952...0.0..0.81.281.4......0....1..gws-wiz.......0i71j0i131j0i131i67.sVzMvGKTEfo">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -276,7 +318,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=ZAm7XPnRCsvIwAKkhquACQ&q=git&oq=git&gs_l=psy-ab.3..35i39l2j0i67l3j0j0i67j0i131j0i67j0.25927.26407..27431...0.0..0.78.203.3......0....1..gws-wiz.......0i71j0i131i67.1TcJlbfZP0o">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -288,7 +330,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=gAm7XKH8DdL5wQL1h4SIBg&q=github&oq=github&gs_l=psy-ab.3..35i39j35i39i19j0i20i263j0i67l2j0j0i67j0j0i67j0.14214.14843..15831...0.0..0.72.200.3......0....1..gws-wiz.......0i71.oHjyUYbCArA">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -300,7 +342,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=kAm7XMG_LIHTwALd_aP4DA&q=gulp.js&oq=gul&gs_l=psy-ab.1.0.35i39j0i131j0i67l2j0l4j0i67l2.18300.19157..21016...0.0..0.79.204.3......0....1..gws-wiz.......0i71.ROgTkf-QL1c">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -312,7 +354,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=pgm7XOy-GITewAKpsoygAg&q=express+js&oq=expr&gs_l=psy-ab.1.0.0i67l3j0l3j0i67j0l3.12877.13718..15604...0.0..0.71.266.4......0....1..gws-wiz.......35i39i19j35i39j0i131.MckbktgHecM">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -324,7 +366,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=tgm7XOuqJc7HwALoxqSoAQ&q=atom&oq=atom&gs_l=psy-ab.3..35i39j35i39i19j0i67j0i131i67j0l2j0i67j0i131j0l2.11880.12973..14114...0.0..0.190.375.3j1......0....1..gws-wiz.......0i71.1E-Kh6c-VNM">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -336,7 +378,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=xQm7XJChE8jZwALTuorYBw&q=photoshop&oq=pho&gs_l=psy-ab.1.0.35i39l2j0i67l8.25799.26089..26749...0.0..0.100.255.2j1......0....1..gws-wiz.......0i71j0i131.P-2A8dRV5Y0">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -348,7 +390,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=4Am7XMzCPMrXwQKA25mwDw&q=babel+javascript&oq=bab&gs_l=psy-ab.1.0.35i39j0i131j0j0i67j0i131j0j0i67j0j0i67j0.18699.18925..23030...0.0..0.75.192.3......0....1..gws-wiz.......0i71.5_wfCmyCUHI">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -360,7 +402,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=-Am7XMjTKIPDwALC76m4Aw&q=npm&oq=npm&gs_l=psy-ab.3..35i39j0i20i263j0i67l2j0j0i67j0j0i67l2j0.17413.18519..18972...0.0..0.84.198.3......0....1..gws-wiz.......0i71j0i131.H7zG9OGXX5M">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -372,7 +414,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.google.it/search?ei=Fwq7XMKMOJDJwQKm77ZI&q=sketch+app&oq=sketch+&gs_l=psy-ab.1.5.0i67j0i20i263j0i10j0i20i263j0j0i67j0j0i67j0j0i67.7127.7127..12775...0.0..0.87.87.1......0....1..gws-wiz.......0i71.QMoQFVGh3ac">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -384,7 +426,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://yarnpkg.com/lang/en/">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -396,7 +438,7 @@
                   </div>
                 </a>
               </div>
-              <div class="icon-box row " >
+              <div class="icon-box  row "  >
                 <a target="_blank"  href="https://www.invisionapp.com/">
                   <div class="icon-body">
                     <div class="icon hvr-bob col-6">
@@ -413,61 +455,184 @@
           <div class="yellow-right col-7" data-aos="fade-left" ></div>
           <div class="yellow-left col-5"  data-aos="fade-left"></div>
         </div>
+    </div>
+    <div class="main-right  col-lg-5  col-sm-12" data-aos="fade-left" >
+      <div class="card_left">
+        <div class="card__image"></div>
+        <p class="card__name">Regi Voda </p>
+        <ul class="social-icons " data-aos="fade-up">
+          <li><a href="#"><i class="fab fa-github "></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin "></i></a></li>
+          <li><a href="mailto:vodaregi@gmail.com"><i class="fas fa-at "></i></a></li>
+        </ul>
       </div>
-       <div class="main-right row col-lg-5 col-sm-12" data-aos="fade-left">
-        <div class="card-product hvr-shadow " data-aos="flip-up" id="mycard">
-          <img src="images/insta.jpg">
-          <div class="card-product-infos">
-            <h2>Regi Voda</h2>
-            <p>Actually junior Ruby on Rails Developer <br>based in <strong>Turin</strong> Italy.</p>
-          </div>
+      <div class="circles col-sm-12">
+        <div class="circle1" data-aos="fade-up"></div>
+        <div class="circle2" data-aos="fade-up"></div>
+        <div class="circle1" data-aos="fade-up"></div>
+      </div>
+    </div>
+
+  </div>
+  <!--INTERESTS-->
+  <div class="interests_container" data-aos="fade-down" >
+    <div class="likes-div">
+  
+      <p class="typography-display-1" style="top: -20px; color: #030e46; font-family: 'Montserrat', sans-serif !important;" data-aos="fade-up"> Things that I like: </p>
+    </div>
+    <div class="interests d-flex flex-wrap col-lg-8  col-sm-12 ">
+      <div class="liked card-deck">
+        <div class="activity" data-aos="fade-up">
+          <img src="https://img.icons8.com/nolan/64/beach-umbrella--v1.png"/>
+            <p>The beach</p>
         </div>
-        <a href="mailto:vodaregi@gmail.com" class="btn btn-primary myBtn hvr-shadow col-lg-4 col-md-3 col-sm-11">Contact me</a>
-        <div class="main-links col-sm-12 col-md-9 col-lg-12">
-        <a target="_blank"  href="https://github.com/Qwertic"><i data-aos="fade-up" class="fab fa-github hvr-bob "></i></a>
-        <a target="_blank"  href="https://www.instagram.com/regivoda"><i data-aos="fade-up" class="fab fa-instagram hvr-bob "></i></a>
-
-        <a target="_blank"  href="https://twitter.com/regi_voda"><i data-aos="fade-up" class="fab fa-twitter hvr-bob "></i></a>
-        <a target="_blank"  href="https://www.linkedin.com/in/regi-voda-580a05169"><i data-aos="fade-up" class="fab fa-linkedin hvr-bob "></i></a>
-      </div>
-       </div>
+        <div class="activity" data-aos="fade-up">
+          <img src="https://img.icons8.com/nolan/64/guitar.png"/>
+            <p>Music</p>
+        </div>
+        <div class="activity" data-aos="fade-up">
+          <img src="https://img.icons8.com/nolan/64/signpost.png"/>
+            <p>Walking</p>
+        </div>
+        <div class="activity" data-aos="fade-up">
+          <img src="https://img.icons8.com/nolan/64/national-park.png"/>
+            <p>Nature</p>
+        </div>
+        <div class="activity" data-aos="fade-up">
+          <img src="https://img.icons8.com/nolan/64/cat-footprint.png"/>
+            <p>Cats*
+              <p>*not the musical</p>
+            </p>
+        </div>
+      </div> 
     </div>
-    <div class="about-div container " id="about">
-      <div class="about-text">
-
-
-      <h1 >So, something about me: <br></h1>
-    <p> As I said, <br> "I changed my life, I leart how to code. <br> And YES I'm a coder now."</p>
-    <p>I was born in <a target="_blank" href="https://www.google.it/search?q=Durres&oq=Durres&aqs=chrome..69i57j0l5.3879j0j7&sourceid=chrome&ie=UTF-8">Durres</a>, Albania. At age 5(more or less) my family moved in Greece, for a better future. I studied there, grew up there, and when,let's say, things were good, my dad decided to move to another country, <strong>again</strong>. This time in Italy, always for the same reason.
-      But things never go as you want, so no better future till now. <br>Now it's my turn to create a better future. <br>I always worked as a professional cook, but i knew that this wasn't the right job for me. I knew that I wasn't in the right place. I felt <strong>lost</strong>.</p>
-      <p>So I started to learn coding. A huge challenge, that i happily accepted! <br> But it was and still is hard but it's fine. That's what I wanted to do, I was sure.   </p>
-      <p>I decided to attend a coding bootcamp, I chose Le Wagon, in Milan, and <strong>damn</strong> that was tough, but it worth it, <strong>DEFINITELY.</strong> <br>
-        And here I am <strong>now.</strong>
-        A junior web developer. <br>
-         Ready for new challenges!
-      </p>
-
-      </div>
-      <a href="mailto:vodaregi@gmail.com" class="btn btn-primary myBtn2 hvr-shadow col-lg-2 col-md-2 col-sm-4">Contact me</a>
-    </div>
-
-     <!-- FOOTER start -->
-    <div class="footer col-12">
-      <div class="footer-links">
-        <a target="_blank" href="https://github.com/Qwertic"><i class="fab fa-github"></i></a>
-        <a target="_blank" href="https://www.instagram.com/regivoda"><i class="fab fa-instagram"></i></a>
-
-        <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/in/regi-voda-580a05169"><i class="fab fa-linkedin"></i></a>
-      </div>
-      <div class="footer-copyright">
-        This page is made with <i class="fas fa-heart"></i> by Regi Voda
+  </div>
+  <!--PLACES-->
+  <div class="likes-div" data-aos="fade-up">
+  
+    <p class="typography-display-1" style="top: -20px; color: #030e46; font-family: 'Montserrat', sans-serif !important;" > Places where I lived: </p>
+    <div class="dropdown-divider" data-aos="fade-left"></div>
+  </div>
+  <div class="places col-11 d-flex flex-wrap">
+    <div class="card_place col-lg-3 col-md-6 col-sm-8" data-aos="fade-up">
+      <img class="card-img-top" src="images/Durres.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Durres</h5>
+        <h6>Albania</h6>
+        <p class="card-text">It is the most ancient city in Albania or the eternal city over Adriatic sea , with almost 3,000 years of history. Here is where I was born.</p>
+        <a target="_blank" href="" class="btn btn-outline-secondary">Go</a>
       </div>
     </div>
+    <div class="card_place col-lg-3 col-md-6 col-sm-8" data-aos="fade-up">
+      <img class="card-img-top" src="images/orcomenos.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Orchomenus</h5>
+        <h6>Greece</h6>
+        <p class="card-text">One of the oldest and richest cities in heroic Greece.</p>
+        <a target="_blank" href="https://www.google.com/maps/place/Orcomeno+323+00,+Grecia/@38.4920055,22.9716137,15z/data=!3m1!4b1!4m13!1m7!3m6!1s0x14a1bd1f067043f1:0x2736354576668ddd!2sAtene,+Grecia!3b1!8m2!3d37.9838096!4d23.7275388!3m4!1s0x14a092c1ac285c0f:0xa1090a9913ebe754!8m2!3d38.493369!4d22.9799652?authuser=0&hl=" class="btn btn-outline-secondary">Go</a>
+      </div>
+    </div>
+    <div class="card_place col-lg-3 col-md-6 col-sm-8" data-aos="fade-up">
+      <img class="card-img-top" src="images/faros.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Faros</h5>
+        <h6>Greece</h6>
+        <p class="card-text">A small and beautiful place by the seaside. I have only summer memories from this place. </p>
+        <a target="_blank" href="https://www.google.com/maps/place/Faros+341+00,+Grecia/@38.4007508,23.6149751,15z/data=!3m1!4b1!4m13!1m7!3m6!1s0x14a1bd1f067043f1:0x2736354576668ddd!2sAtene,+Grecia!3b1!8m2!3d37.9838096!4d23.7275388!3m4!1s0x14a11126cd5de719:0x7b86084872b8d668!8m2!3d38.3990231!4d23.6242962?authuser=0&hl=" class="btn btn-outline-secondary">Go</a>
+      </div>
+    </div>
+    <div class="card_place col-lg-3 col-md-6 col-sm-8" data-aos="fade-up">
+      <img class="card-img-top" src="images/Athens.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Athens</h5>
+        <h6>Greece</h6>
+        <p class="card-text">Historic city and capital of Greece. Many of Classical civilization’s intellectual and artistic ideas originated there, birthplace of Western civilization.</p>
+        <a target="_blank" href="https://www.google.com/maps/place/Atene,+Grecia/@37.990832,23.7033199,13z/data=!3m1!4b1!4m5!3m4!1s0x14a1bd1f067043f1:0x2736354576668ddd!8m2!3d37.9838096!4d23.7275388?authuser=0&hl=" class="btn btn-outline-secondary">Go</a>
+      </div>
+    </div>
+    <div class="card_place col-lg-3 col-md-6 col-sm-8" data-aos="fade-up">
+      <img class="card-img-top" src="images/Lugo.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Lugo</h5>
+        <h6>Italy</h6>
+        <p class="card-text">A small place close to the city of Ravenna, known mostly as a city of merchants in the medieval ages.</p>
+        <a target="_blank" href="https://www.google.com/maps/place/48022+Lugo+RA,+Italia/@44.4764465,11.8415151,12z/data=!3m1!4b1!4m5!3m4!1s0x477e032c7bcf818b:0x3fc97c9f1a8871bd!8m2!3d44.480727!4d11.8963211?authuser=0&hl=" class="btn btn-outline-secondary">Go</a>
+      </div>
+    </div>
+    <div class="card_place col-lg-3 col-md-6 col-sm-8" data-aos="fade-up">
+      <img class="card-img-top" src="images/torino.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Turin</h5>
+        <h6>Italy</h6>
+        <p class="card-text">Rich of story and known for its architecture, Turin is a beautiful city in the north of Italy.</p>
+        <a  target="_blank" href="https://www.google.com/maps/place/Torino+TO,+Italia/@45.0701176,7.6000494,12z/data=!3m1!4b1!4m5!3m4!1s0x47886d126418be25:0x8903f803d69c77bf!8m2!3d45.070312!4d7.6868565?authuser=0&hl=" class="btn btn-outline-secondary">Go</a>
+      </div>
+    </div>
+
+    <div class="card_place col-lg-3 col-md-6 col-sm-8" data-aos="fade-up">
+      <img class="card-img-top" src="images/paris.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Paris</h5>
+        <h6>France</h6>
+        <p class="card-text">We all know Paris.</p>
+        <a target="_blank" href="https://www.google.com/maps?authuser=0&hl=it&gl=fr&sxsrf=ALeKk013uZB7vatO3o3TyntqpM2sTYJQQQ:1593125903302&q=paris&gs_lcp=CgZwc3ktYWIQARgBMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnUABYAGCQMGgBcAB4AIABAIgBAJIBAJgBAKoBB2d3cy13aXqwAQo&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjeqvy_iJ7qAhVEUhoKHR2eD7AQ_AUoAnoECBwQBA" class="btn btn-outline-secondary">Go</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!--QUOTES-->
+  <div class="quotes-div d-flex flex-wrap col-lg-5  col-sm-12" data-aos="fade-up">
+  
+    <p class="typography-display-1" style="top: -20px; color: #030e46; font-family: 'Montserrat', sans-serif !important;"> Some not only code related quotes that I like: </p>
+    <div class="container" style="padding-top: 5px ;">
+      <blockquote class="blockquote" data-aos="fade-up">
+        <p class="mb-0">“There are two hard things in computer science: cache invalidation and naming things”</p>
+        <footer class="blockquote-footer"> <cite title="Source Title"> Leon Bambrick</cite></footer>
+      </blockquote>
+      <blockquote class="blockquote" data-aos="fade-up">
+        <p class="mb-0">“But it was working!“</p>
+        <footer class="blockquote-footer"> <cite title="Source Title"> anonymous</cite></footer>
+      </blockquote>
+      <blockquote class="blockquote" data-aos="fade-up">
+        <p class="mb-0">“Intelligence is the ability to avoid doing work, yet getting the work done.“</p>
+        <footer class="blockquote-footer"> <cite title="Source Title"> Linus Torvalds</cite></footer>
+      </blockquote>
+      <blockquote class="blockquote" data-aos="fade-up">
+        <p class="mb-0">“I'm trying to think, don't confuse me with facts.“</p>
+        <footer class="blockquote-footer"> <cite title="Source Title"> Plato</cite></footer>
+      </blockquote>
+    </div>
+
+  </div>
+  <!-- -->
+  <!-- FOOTER start -->
+  <div class="footer col-12">
+    <div class="footer-links">
+      <a target="_blank" href="https://github.com/Qwertic"><i class="fab fa-github"></i></a>
+      <a target="_blank" href="https://www.instagram.com/regivoda"><i class="fab fa-instagram"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/regi-voda-580a05169"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div class="footer-copyright">
+      This page is made with <i class="fas fa-heart"></i> by Regi Voda
+    </div>
+  </div>
     <!-- FOOTER end -->
-<script src="/javascripts/site.js"></script>
+<script src="material-4.1.1-dist/js/material.min.js"></script>
 
-
+<script src="http://minime.stephan-brumme.com/files/threejs/three-r95.min.js"></script>
+<script src="https://www.vantajs.com/dist/vanta.halo.min.js"></script>
+<script>
+VANTA.HALO({
+  el: "#ban",
+  mouseControls: true,
+  touchControls: true,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  baseColor: 0x1d64,
+  backgroundColor: 0x30d46
+});
+</script>
   </body>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
